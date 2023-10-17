@@ -623,15 +623,20 @@ return (
         <summary> 재사용이 가능한 컴포넌트 분리 & 구현 </summary>
         <div markdown="1">
          <aside>
-            - src -> components -> common 폴더 속 공용 컴포넌트 구현
-            - 커스텀 AlertModal
-            - 버킷 리스트에 아이템 추가 모달
+         <ul>
+         <li>src -> components -> common 폴더 속 공용 컴포넌트 구현</li>
+         <li>커스텀 AlertModal</li>
+         <li>버킷 리스트에 아이템 추가 모달</li>
+
             - Footer Nav Bar
             - 커스텀이 가능한 헤더 바
             - 쓰로틀링이 적용된 버튼
+          </ul>
           </aside>
         </div>
+
     </details>
+
   - <details>
     <summary> 커스텀 훅 제작 </summary>
     <div markdown="1">
