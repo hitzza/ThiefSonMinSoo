@@ -608,7 +608,7 @@ return (
 
 ![Untitled-3](https://github.com/jutrong/sonminsoo-project/assets/113658811/0107488f-b694-43e3-8fd3-f5311a36c29c)
 
-## What did I do?
+## :information_desk_person: What did I do?
 
 - 구현 기능
 
@@ -619,44 +619,27 @@ return (
 
 - 구현 상세 설명
 
-<details>
-<summary> 재사용이 가능한 컴포넌트 분리 & 구현 </summary>
-<div markdown="1">
- <aside>
-    - src -> components -> common 폴더 속 공용 컴포넌트 구현
-    - 커스텀 AlertModal
-    - 버킷 리스트에 아이템 추가 모달
-    - Footer Nav Bar
-    - 커스텀이 가능한 헤더 바
-    - 쓰로틀링이 적용된 버튼
-    
-</aside>
-</div>
-</details>
-
-<details>
-<summary> 커스텀 훅 제작 </summary>
-<div markdown="1">
- <aside>
-    - src -> components -> common 폴더 속 공용 컴포넌트 구현
-    - 커스텀 AlertModal
-    - 버킷 리스트에 아이템 추가 모달
-    - Footer Nav Bar
-    - 커스텀이 가능한 헤더 바
-    - 쓰로틀링이 적용된 버튼
-    <details>
-<summary> 커스텀 훅 제작 </summary>
-<div markdown="1">
- <aside>
-    - src -> components -> common 폴더 속 공용 컴포넌트 구현
-    - 커스텀 AlertModal
-    - 버킷 리스트에 아이템 추가 모달
-    - Footer Nav Bar
-    - 커스텀이 가능한 헤더 바
-    - 쓰로틀링이 적용된 버튼
-</aside>
-</div>
-</details>
-</aside>
-</div>
-</details>
+  - <details>
+        <summary> 재사용이 가능한 컴포넌트 분리 & 구현 </summary>
+        <div markdown="1">
+         <aside>
+            - src -> components -> common 폴더 속 공용 컴포넌트 구현
+            - 커스텀 AlertModal
+            - 버킷 리스트에 아이템 추가 모달
+            - Footer Nav Bar
+            - 커스텀이 가능한 헤더 바
+            - 쓰로틀링이 적용된 버튼
+          </aside>
+        </div>
+    </details>
+  - <details>
+    <summary> 커스텀 훅 제작 </summary>
+    <div markdown="1">
+     <aside>
+        - 현재 로그인 정보와 토큰 값을 알 수 있는 useAuth, useGetToken 훅
+        - 로그인이 필요한 요청을 보내는 useAxiosPrivate 훅
+        - 현재 스크롤위치를 감지해 무한 스크롤을 구현하는 useIntersectionObserver 훅
+        - 현재 유저 정보를 불러오거나 업데이트하는 useUserInfo 훅
+    </aside>
+    </div>
+    </details>
