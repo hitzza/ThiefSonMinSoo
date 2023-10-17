@@ -649,3 +649,37 @@ return (
     </aside>
     </div>
     </details>
+
+  - <details>
+    <summary> 전역상태(로그인 정보) 관리 </summary>
+    <div markdown="1">
+     <aside>
+     <ul>
+     <li>사용기술 & 이슈</li>
+     <ul>
+     <li>Redux toolkit과 useReducer훅을 사용하여 토큰 값 관리</li>
+     <li>이슈 : useAxiosPrivate 커스텀 훅에서 토큰값이 있을 경우 헤더에 현재 토큰값이 저장된 axios 객체를 생성하는데 토큰이 존재해도 헤더에 토큰값이 없는채로 axios객체가 생성되는 이슈</li>
+     <li>해결 : 토큰값이 비동기적으로 받아와져 axiosPrivate객체를 만들고 토큰이 저장되어 토큰값이 없는 axiosPrivate 객체를 만든다고 판단, 로그인이 성공하고 토큰값이 받아와지면 axiosPrivate객체를 생성하도록 변경</li>
+     </ul>
+     <ul>
+     <li>Redux의 사용 필요가 없다고 판단</li>
+     <li>이슈 : Redux에서 토큰값과 유저 정보만 저장하기 때문에 굳이 Redux를 사용해 전역 상태를 관리할 필요가 없다. </li>
+     <li>해결 : 리덕스를 제거하고 index.js단에서 사용하는 Context API로 변경</li>
+     </ul>
+     </ul>
+    </aside>
+    </div>
+    </details>
+
+  - <details>
+        <summary> Router구조 설정 </summary>
+        <div markdown="1">
+         <aside>
+         <ul>
+         <li>Provider Pattern을 적용하기 위해 최상단 부모 페이지 파일과 하위 컴포넌트들을 분리해 적용 할 수 있는 구조로 결정</li>
+         
+          </ul>
+          </aside>
+        </div>
+
+    </details>
