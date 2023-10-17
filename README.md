@@ -6,13 +6,13 @@
 
 <img width="599" alt="%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-10-09%20%EC%98%A4%ED%9B%84%203 49 17" src="https://github.com/jutrong/sonminsoo-project/assets/113658811/0dd7f0a8-f7dd-4f08-b8c9-975bbe1935cc">
 
-## 배포 URL
+## 배포 URL(23.10.11일자 서버 중지)
 
 [당장 손민수](https://kdt-sw-5-2-team11.elicecoding.com/)
 
 당장 손민수는 390x844 모바일 환경에 최적화되어 있습니다.
 
-## 계정
+## 테스트 계정
 
 ID : [cslzh4433@naver.com](mailto:cslzh4433@naver.com)
 
@@ -357,13 +357,13 @@ return (
 
 | 로그인                                                                                                                 |
 | ---------------------------------------------------------------------------------------------------------------------- |
-| <img width="200" src="https://github.com/hitzza/ThiefSonMinSoo/assets/103095794/ffb699fc-4b24-4e41-af83-19bc94e8e6a9"> |
+| <img width="200" src="https://github.com/hitzza/ThiefSonMinSoo/assets/103095794/53a65863-d533-48a2-8b0e-7674d12660c2"> |
 
 ### 👩‍❤️‍👨 팬덤
 
-| 팬덤                                                                                                                   |
-| ---------------------------------------------------------------------------------------------------------------------- |
-| <img width="200" src="https://github.com/hitzza/ThiefSonMinSoo/assets/103095794/1ca0f369-7531-449e-b130-20b729b0856d"> |
+| 팬덤                                                                                                                    |
+| ----------------------------------------------------------------------------------------------------------------------- |
+| <img width="200" src="https://github.com/hitzza/ThiefSonMinSoo/assets/103095794/e6e1d9f2-c7ec-4272-9b1d-dc9c8a0c42e0d"> |
 
 ### 📔 피드
 
@@ -375,19 +375,19 @@ return (
 
 | 손민수템                                                                                                               | 의뢰                                                                                                                   |
 | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| <img width="200" src="https://github.com/hitzza/ThiefSonMinSoo/assets/103095794/02fa228b-3ccb-4e9f-95dd-d872eba0baa2"> | <img width="200" src="https://github.com/hitzza/ThiefSonMinSoo/assets/103095794/269b12c6-75db-47f9-ac91-4b8c669ac717"> |
+| <img width="200" src="https://github.com/hitzza/ThiefSonMinSoo/assets/103095794/077e3d1a-124a-4ecd-8365-893d8b87cef1"> | <img width="200" src="https://github.com/hitzza/ThiefSonMinSoo/assets/103095794/36dedd5a-151e-4540-8f6b-102eb4393cef"> |
 
 ### ⌨️ 채팅
 
 | 채팅                                                                                                                   |
 | ---------------------------------------------------------------------------------------------------------------------- |
-| <img width="200" src="https://github.com/hitzza/ThiefSonMinSoo/assets/103095794/b7299db9-b3fe-4ed5-b32a-be79cb359fa6"> |
+| <img width="200" src="https://github.com/hitzza/ThiefSonMinSoo/assets/103095794/093b24aa-2450-4f24-b906-73d19458ee3c"> |
 
 ### 👩‍💻 마이페이지
 
 | 마이페이지                                                                                                             |
 | ---------------------------------------------------------------------------------------------------------------------- |
-| <img width="200" src="https://github.com/hitzza/ThiefSonMinSoo/assets/103095794/6d5be59e-f362-48fb-9af2-74b0e1499fda"> |
+| <img width="200" src="https://github.com/hitzza/ThiefSonMinSoo/assets/103095794/a9dea44c-ce2a-42fa-9636-d7f19061549a"> |
 
 ## 6. 페이지 기능
 
