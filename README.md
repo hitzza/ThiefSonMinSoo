@@ -355,20 +355,21 @@ return (
 
 ### 🔐 **계정**
 
-| 로그인                                                                                                                 |
-| ---------------------------------------------------------------------------------------------------------------------- |
-| <img width="200" src="https://github.com/hitzza/ThiefSonMinSoo/assets/103095794/53a65863-d533-48a2-8b0e-7674d12660c2"> |
-
 <details>
 <summary> 로그인 </summary>
 <div markdown="1">
  <aside>
  <img width="200" src="https://github.com/hitzza/ThiefSonMinSoo/assets/103095794/53a65863-d533-48a2-8b0e-7674d12660c2">
-    
 </aside>
-
+</div>
+<summary> 팬덤 </summary>
+<div markdown="1">
+ <aside>
+ <img width="200" src="https://github.com/hitzza/ThiefSonMinSoo/assets/103095794/e6e1d9f2-c7ec-4272-9b1d-dc9c8a0c42e0d">
+</aside>
 </div>
 </details>
+
 ### 👩‍❤️‍👨 팬덤
 
 | 팬덤                                                                                                                    |
