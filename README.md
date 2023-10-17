@@ -55,6 +55,8 @@ https://drive.google.com/file/d/1OhUp1gQUyjQfKeKOUbvx9et2rnat9IJG/view?usp=shari
 
 [9. 팀 활동](#9-팀-활동)
 
+[10. What did I do?](#what-did-i-do)
+
 ## 1. 팀 소개(역할 분담)
 
 #### **1. 신혜정(팀장/FE)**
@@ -605,3 +607,56 @@ return (
 ![Untitled-2](https://github.com/jutrong/sonminsoo-project/assets/113658811/279c8140-cbfa-4c19-98be-e312e6f9183c)
 
 ![Untitled-3](https://github.com/jutrong/sonminsoo-project/assets/113658811/0107488f-b694-43e3-8fd3-f5311a36c29c)
+
+## What did I do?
+
+- 구현 기능
+
+  - 재사용 가능한 컴포넌트 분리 & 구현
+  - 커스텀 훅 제작
+  - Redux (현재는 Context API)를 이용한 전역상태(로그인 정보)관리
+  - Router 구조 설정
+
+- 구현 상세 설명
+
+<details>
+<summary> 재사용이 가능한 컴포넌트 분리 & 구현 </summary>
+<div markdown="1">
+ <aside>
+    - src -> components -> common 폴더 속 공용 컴포넌트 구현
+    - 커스텀 AlertModal
+    - 버킷 리스트에 아이템 추가 모달
+    - Footer Nav Bar
+    - 커스텀이 가능한 헤더 바
+    - 쓰로틀링이 적용된 버튼
+    
+</aside>
+</div>
+</details>
+
+<details>
+<summary> 커스텀 훅 제작 </summary>
+<div markdown="1">
+ <aside>
+    - src -> components -> common 폴더 속 공용 컴포넌트 구현
+    - 커스텀 AlertModal
+    - 버킷 리스트에 아이템 추가 모달
+    - Footer Nav Bar
+    - 커스텀이 가능한 헤더 바
+    - 쓰로틀링이 적용된 버튼
+    <details>
+<summary> 커스텀 훅 제작 </summary>
+<div markdown="1">
+ <aside>
+    - src -> components -> common 폴더 속 공용 컴포넌트 구현
+    - 커스텀 AlertModal
+    - 버킷 리스트에 아이템 추가 모달
+    - Footer Nav Bar
+    - 커스텀이 가능한 헤더 바
+    - 쓰로틀링이 적용된 버튼
+</aside>
+</div>
+</details>
+</aside>
+</div>
+</details>
