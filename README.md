@@ -353,8 +353,6 @@ return (
 
 ## 5. UI
 
-### 🔐 **계정**
-
 <details>
 <summary> 로그인 </summary>
 <div markdown="1">
@@ -362,7 +360,10 @@ return (
  <img width="200" src="https://github.com/hitzza/ThiefSonMinSoo/assets/103095794/53a65863-d533-48a2-8b0e-7674d12660c2">
 </aside>
 </div>
-<summary> 팬덤 </summary>
+</details>
+
+<details>
+<summary>  팬덤 </summary>
 <div markdown="1">
  <aside>
  <img width="200" src="https://github.com/hitzza/ThiefSonMinSoo/assets/103095794/e6e1d9f2-c7ec-4272-9b1d-dc9c8a0c42e0d">
@@ -370,29 +371,41 @@ return (
 </div>
 </details>
 
-### 👩‍❤️‍👨 팬덤
-
-| 팬덤                                                                                                                    |
-| ----------------------------------------------------------------------------------------------------------------------- |
-| <img width="200" src="https://github.com/hitzza/ThiefSonMinSoo/assets/103095794/e6e1d9f2-c7ec-4272-9b1d-dc9c8a0c42e0d"> |
-
-### 📔 피드
-
-| 피드 작성                                                                                                                  | 피드 수정                                                                                                                  | 댓글 작성                                                                                                                   |
-| -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| <img width="200" src="https://github.com/jutrong/sonminsoo-project/assets/113658811/6b3a6ee7-72fd-4c1e-ad38-fb320bb6e968"> | <img width="200" src="https://github.com/jutrong/sonminsoo-project/assets/113658811/3d2e0c7a-6040-4644-91da-82617461f335"> | <img width="200" src="https://github.com/jutrong/sonminsoo-project/assets/113658811/a63d8b6b-cb1a-4fd6-af6a-c30312df17a8 "> |
+<details>
+<summary> 피드 작성 </summary>
+<div markdown="1">
+ <aside>
+ <img width="200" src="https://github.com/jutrong/sonminsoo-project/assets/113658811/6b3a6ee7-72fd-4c1e-ad38-fb320bb6e968">
+</aside>
+</div>
+</details>
+<details>
+<summary> 피드 수정 </summary>
+<div markdown="1">
+ <aside>
+ <img width="200" src="https://github.com/jutrong/sonminsoo-project/assets/113658811/3d2e0c7a-6040-4644-91da-82617461f335">
+</aside>
+</div>
+</details>
+<details>
+<summary> 댓글 작성 </summary>
+<div markdown="1">
+ <aside>
+ <img width="200" src="https://github.com/jutrong/sonminsoo-project/assets/113658811/a63d8b6b-cb1a-4fd6-af6a-c30312df17a8">
+</aside>
+</div>
+</details>
 
 ### 👗 손민수 아이템
 
-| 손민수템                                                                                                               | 의뢰                                                                                                                   |
-| ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| <img width="200" src="https://github.com/hitzza/ThiefSonMinSoo/assets/103095794/077e3d1a-124a-4ecd-8365-893d8b87cef1"> | <img width="200" src="https://github.com/hitzza/ThiefSonMinSoo/assets/103095794/36dedd5a-151e-4540-8f6b-102eb4393cef"> |
-
-### ⌨️ 채팅
-
-| 채팅                                                                                                                   |
-| ---------------------------------------------------------------------------------------------------------------------- |
-| <img width="200" src="https://github.com/hitzza/ThiefSonMinSoo/assets/103095794/093b24aa-2450-4f24-b906-73d19458ee3c"> |
+<details>
+<summary> 채팅 </summary>
+<div markdown="1">
+ <aside>
+ <img width="200" src="https://github.com/hitzza/ThiefSonMinSoo/assets/103095794/093b24aa-2450-4f24-b906-73d19458ee3c">
+</aside>
+</div>
+</details>
 
 ### 👩‍💻 마이페이지
 
@@ -407,8 +420,6 @@ return (
 - useReducer를 사용해 전역으로 Access Token과 유저 정보를 관리
 - 로그인 시 유저 정보(닉네임, 프로필 사진 등)가 입력되지 않았다면 유저 정보 입력 페이지로 이동
 
-### 🏠 **홈**
-
 ### 👩‍❤️‍👨 팬덤
 
 ### 📔 피드
@@ -422,7 +433,12 @@ return (
 
 - 로그인 시 북마크 한 손민수템 표시
 - 손민수템 상세보기에서 이미지 클릭 시 해당 아이템 링크로 이동
-- 의뢰부분 라온님이 작성
+- 의뢰 페이지
+  - 작성자와 비작성자 구분하여 의뢰 게시판 기능 사용
+    -> useRouter, Params 이용하여 작성자 유무 판단
+  - 작성자는 의뢰 폼을 작성, 수정, 답변 삭제 또는 채택
+    -> 답변 채택 유무 map 함수 순회하여 true 값이 하나라도 있다면 채택 옵션 제거
+  - 비작성자는 의뢰 답변 작성 (링크 등록 최대 9개)
 
 ### ⌨️ 채팅
 
@@ -436,10 +452,17 @@ return (
 
 ### 👩‍💻 마이페이지
 
+- 프로필 등록 및 편집
+- 팔로워, 팔로잉 목록 보기
+- 팔로우, 팔로잉 기능
+- 버킷리스트 목록 보기 및 등록, 삭제
+- 나의 의뢰, 찜한 의뢰, 완료된 의뢰 보기
+- 피드 목록 보기
+  - 마이페이지 본인과 타인 구분, 팔로우 및 팔로잉 삼항 연산자로 구분
+
 ## 7. 개선사항
 
-- Provider Pattern 적용
-- 리렌더링 최적화
+- Provider Pattern으로 변경
 - 쓰로틀링이 적용 된 공용 버튼 컴포넌트 제작
 - 전역 상태관리 Redux → Context Api 변경
 - 손민수템 리스트, 피드 리스트 무한 스크롤 적용
