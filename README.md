@@ -627,10 +627,9 @@ return (
          <li>src -> components -> common 폴더 속 공용 컴포넌트 구현</li>
          <li>커스텀 AlertModal</li>
          <li>버킷 리스트에 아이템 추가 모달</li>
-
-            - Footer Nav Bar
-            - 커스텀이 가능한 헤더 바
-            - 쓰로틀링이 적용된 버튼
+         <li>Footer Nav Bar</li>
+         <li>커스텀이 가능한 헤더 바</li>
+         <li>쓰로틀링이 적용된 버튼</li>
           </ul>
           </aside>
         </div>
@@ -641,10 +640,12 @@ return (
     <summary> 커스텀 훅 제작 </summary>
     <div markdown="1">
      <aside>
-        - 현재 로그인 정보와 토큰 값을 알 수 있는 useAuth, useGetToken 훅
-        - 로그인이 필요한 요청을 보내는 useAxiosPrivate 훅
-        - 현재 스크롤위치를 감지해 무한 스크롤을 구현하는 useIntersectionObserver 훅
-        - 현재 유저 정보를 불러오거나 업데이트하는 useUserInfo 훅
+     <ul>
+     <li>현재 로그인 정보와 토큰 값을 알 수 있는 useAuth, useGetToken 훅</li>
+     <li>로그인이 필요한 요청을 보내는 useAxiosPrivate 훅</li>
+     <li>현재 스크롤위치를 감지해 무한 스크롤을 구현하는 useIntersectionObserver 훅</li>
+     <li>현재 유저 정보를 불러오거나 업데이트하는 useUserInfo 훅</li>
+     </ul>
     </aside>
     </div>
     </details>
