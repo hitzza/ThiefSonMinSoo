@@ -675,10 +675,9 @@ return (
         <summary> Router구조 설정 </summary>
         <div markdown="1">
          <aside>
-         <ul>
-         <li>Provider Pattern을 적용하기 위해 최상단 부모 페이지 파일과 하위 컴포넌트들을 분리해 적용 할 수 있는 구조로 결정</li>
          
-          </ul>
+         Provider Pattern을 적용하기 위해 최상단 부모 페이지 파일과 하위 컴포넌트들을 분리해 적용 할 수 있는 구조로 결정
+
           </aside>
         </div>
 
