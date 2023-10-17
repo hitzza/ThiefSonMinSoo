@@ -27,6 +27,14 @@ PW : 12341234aa
 - K-pop뮤비 시청이 취미인 20대 초반 여성
 - 최애 아이돌의 아이템을 찾기 위해 팬카페 가입중
 
+## Figma 문서
+
+https://www.figma.com/file/dmFBG0e6dFjDnUrxWbkKgy/%EA%B4%B4%EB%8F%84-%EC%86%90%EB%AF%BC%EC%88%98-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?type=design&node-id=0-1&mode=design&t=43dWnsdEq0Gwwz9l-0
+
+## 발표자료 pdf
+
+https://drive.google.com/file/d/1OhUp1gQUyjQfKeKOUbvx9et2rnat9IJG/view?usp=sharing
+
 ## 목차
 
 [1. 팀 소개(역할 분담)](#1-팀-소개역할-분담)
