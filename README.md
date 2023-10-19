@@ -55,7 +55,7 @@ https://drive.google.com/file/d/1OhUp1gQUyjQfKeKOUbvx9et2rnat9IJG/view?usp=shari
 
 [9. 팀 활동](#9-팀-활동)
 
-[10. What did I do?](#what-did-i-do)
+[10. What did I do?](#informationdeskperson-what-did-i-do)
 
 ## 1. 팀 소개(역할 분담)
 
