@@ -111,8 +111,6 @@ https://drive.google.com/file/d/1OhUp1gQUyjQfKeKOUbvx9et2rnat9IJG/view?usp=shari
 
 - 학습한 React와 여러 라이브러리를 활용해 PWA 기반 SPA 웹 어플리케이션 개발(이미지 중심 소셜 네트워크 서비스)
 
-- 애자일 방법론을 사용하여 협업 역량 강화
-
 ### [ 사용 기술 ]
 
 - Front-end
