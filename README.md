@@ -614,6 +614,7 @@ return (
   - 커스텀 훅 제작
   - Redux (현재는 Context API)를 이용한 전역상태(로그인 정보)관리
   - Router 구조 설정
+  - CORS에러 해결
 
 - 구현 상세 설명
 
@@ -675,3 +676,15 @@ return (
          <aside>Provider Pattern을 적용하기 위해 최상단 부모 페이지 파일과 하위 컴포넌트들을 분리해 적용 할 수 있는 구조로 결정</aside>
         </div>
         </details>
+
+  - <details>
+    <summary> CORS에러 해결 </summary>
+    <div markdown="1">
+     <aside>
+     <ul>
+     <li>http-proxy-middleware를 사용해 프록시 설정으로 해결 </li>
+     
+     </ul>
+    </aside>
+    </div>
+    </details>
