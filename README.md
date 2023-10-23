@@ -688,3 +688,22 @@ return (
     </aside>
     </div>
     </details>
+
+  - <details>
+    <summary> 손민수템 페이지 </summary>
+    <div markdown="1">
+     <aside>
+     <ul>
+     <li>사용기술 & 이슈 </li>
+     <ul>
+     <li>IntersectionObserver를 사용하여 스크롤을 감지하고, 현재 불러와져 있는 데이터를 클로저를 이용해 변수에 저장해서 구분하여 무한 스크롤 구현</li>
+     <li>현재 백엔드 문제로 비로그인 상태에서만 무한 스크롤 확인 가능합니다.</li>
+     </ul>
+     <ul>
+     <li>이슈 : 손민수템을 버킷에 추가할 시 즐겨찾기 마크가 바로 적용되지 않고 다음 요청 때 적용되던 이슈</li>
+     <li>해결 : Provider Pattern으로 패턴 변경 후 버킷에 아이템이 추가되면 새로 데이터를 fetch받아 다시 state에 저장해서 페이지를 다시 렌더링 시켜 해결 </li>
+     </ul>
+     </ul>
+    </aside>
+    </div>
+    </details>
