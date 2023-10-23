@@ -58,7 +58,8 @@ const Home: React.FC = () => {
   const sonminsuDataGet = async () => {
     try {
       const res = await api.get(`/sonminsu-items?page=1&perPage=6`);
-      setsonminsoosData(res.data.data);
+      const scliceData = res.data.data.slice(0, 6);
+      setsonminsoosData(scliceData);
     } catch (error) {
       console.error("Error", error);
     }
