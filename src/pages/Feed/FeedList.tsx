@@ -38,29 +38,23 @@ const FeedList = () => {
   const onIntersect: IntersectionObserverCallback = useCallback(
     async ([entry], observer) => {
       if (!!timerId) {
-        console.log("return");
         return;
-      }
-      if (isLoaded) {
-        console.log("true");
       }
       timerId = setTimeout(() => {
         timerId = undefined;
       }, 500);
 
-      console.log("timerId", timerId);
       if (entry.isIntersecting && !isLoaded) {
-        console.log("start");
         observer.unobserve(entry.target);
 
         setIsLoaded(() => true);
         try {
           count += 1;
-          console.log("count", count);
+
           const { data } = await axiosPrivate.get(
             `/feeds?page=1&perPage=${count}`
           );
-          // console.log("setItem!", count);
+
           setFeedsData(data.data);
           setIsLoaded(() => false);
         } catch (err) {

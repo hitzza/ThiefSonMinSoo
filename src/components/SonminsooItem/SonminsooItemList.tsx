@@ -35,19 +35,13 @@ const SonminsooItemList = () => {
   const onIntersect: IntersectionObserverCallback = useCallback(
     async ([entry], observer) => {
       if (!!timerId) {
-        console.log("return");
         return;
-      }
-      if (isLoaded) {
-        console.log("true");
       }
       timerId = setTimeout(() => {
         timerId = undefined;
       }, 500);
 
-      console.log("timerId", timerId);
       if (entry.isIntersecting && !isLoaded) {
-        console.log("start");
         observer.unobserve(entry.target);
 
         setIsLoaded(() => true);
@@ -56,7 +50,7 @@ const SonminsooItemList = () => {
           const { data } = await api.get(
             `/sonminsu-items?page=1&perPage=${count}`
           );
-          console.log("setItem!", count);
+
           setSonminsooItems(data.data);
           setIsLoaded(() => false);
         } catch (err) {

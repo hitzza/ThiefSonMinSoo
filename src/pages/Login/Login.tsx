@@ -65,7 +65,6 @@ const Login = () => {
               color="#fff"
               content="로그인"
               onClick={async () => {
-                console.log("click");
                 await axios
                   .post("/auth/sign-in", {
                     email,

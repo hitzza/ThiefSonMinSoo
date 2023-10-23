@@ -59,10 +59,10 @@ const BucketListModal: React.FC<ModalProps> = ({
               const res = await axiosPrivate.put(
                 `/sonminsu-items/${itemId}/buckets/${select}`
               );
-              console.log(res);
+
               document.body.style.overflow = "unset";
               setModalOpen(false);
-              // window.location.reload();
+
               fetchData();
             } catch (e) {}
           }}

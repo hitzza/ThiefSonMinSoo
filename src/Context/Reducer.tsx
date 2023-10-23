@@ -3,8 +3,6 @@ import { userInfo, actionType } from "../types/contextUserInfo";
 const reducer = (state: userInfo, action: actionType): userInfo => {
   switch (action.type) {
     case "AUTH":
-      console.log(state, "state");
-      console.log(action, "action");
       return {
         ...state,
         accessToken: action.accessToken,

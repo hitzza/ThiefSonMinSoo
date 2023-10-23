@@ -75,7 +75,6 @@ const PasswordModify = () => {
                       axios
                         .delete(`/auth/sign-out`)
                         .then((res) => {
-                          console.log(res, "로그아웃");
                           dispatch({
                             type: "AUTH",
                             accessToken: "",

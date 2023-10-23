@@ -55,10 +55,8 @@ const SonMinsooItemInfo = ({
               ? api
                   .put(`/sonminsu-items/${id}/buckets/${isInMyBucket.bucketId}`)
                   .then((res) => {
-                    console.log(res);
                     document.body.style.overflow = "unset";
                     setModalView(false);
-                    // window.location.reload();
                     getSonminsooItemList();
                   })
 

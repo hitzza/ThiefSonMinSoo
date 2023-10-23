@@ -19,10 +19,7 @@ const EmailCertification = () => {
     setEmail: (value: string) => void;
   }>();
 
-  console.log(email, "email");
-
   const handleEmailAuthClick = useCallback(async () => {
-    console.log("handleEmailAuthClick", email);
     if (
       /^([0-9a-zA-Z_\.-]+)@([0-9a-zA-Z_-]+)(\.[0-9a-zA-Z_-]+){1,2}$/.test(
         email
@@ -35,17 +32,12 @@ const EmailCertification = () => {
     try {
       const reponse = await axios.get(`/auth/verification-code?email=${email}`);
       setSendCode(() => true);
-      console.log(reponse);
     } catch (err) {
       console.error(err);
     }
-    console.log("handleEmailAuthClick", email);
   }, [email]);
 
   const handleEmailAuthVaildClick = useCallback(async () => {
-    console.log("authValid", authValid);
-    //얘도 안됨
-
     try {
       const res = await axios.post(`auth/verification-code`, {
         email: email,

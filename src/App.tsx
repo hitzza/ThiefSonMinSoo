@@ -17,11 +17,10 @@ const App = () => {
     const pathname = window.location.pathname;
 
     if (pathname !== "/" && !checkIsSignIn) {
-      console.log("access token", accessToken);
       const tryAutoSignIn = async () => {
         try {
           const res = await axios.get("/auth/auto-sign-in");
-          console.log(res);
+
           dispatch({ type: "AUTH", accessToken: res.headers.authorization });
         } catch {
           dispatch({ type: "AUTH", accessToken: "" });

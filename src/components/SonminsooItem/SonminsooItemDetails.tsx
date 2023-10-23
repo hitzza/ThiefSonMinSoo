@@ -37,7 +37,6 @@ const SonminsooItemDetails = () => {
     try {
       const { data } = await api.get(`/sonminsu-items/${id}`);
       setProductInfo(data.data);
-      console.log("fetchData");
     } catch (err) {
       console.error(err);
     }
@@ -64,7 +63,6 @@ const SonminsooItemDetails = () => {
                       `/sonminsu-items/${id}/buckets/${productInfo?.isInMyBucket.bucketId}`
                     )
                     .then((res) => {
-                      console.log(res, "res!");
                       document.body.style.overflow = "unset";
                       setModalView(false);
                       fetchData();
