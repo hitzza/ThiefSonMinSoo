@@ -3,7 +3,6 @@ import { userInfoStateContext } from "../Context/UserInfoContext";
 
 const useAuth = () => {
   const userInfo = useContext(userInfoStateContext);
-  console.log("useAuth");
 
   return {
     accessToken: userInfo?.accessToken,
